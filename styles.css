@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; /* the font of the wesbite, the margins are also set in this code */
+}
+
+.homepage{
+    display: flex;
+    position: relative; /*background of website*/
+    width: 100wh;
+    height: 100vh;
+    background: linear-gradient(90deg, rgb(151, 6, 107) 25%, rgb(101, 3, 104) 55%, rgb(120, 2, 135) 100%); /*remove pink*/
+    background-size: cover;
+    
+}
+
+.title1{
+    width: 90%;
+    color: rgb(38, 1, 43);
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%, -30%);
+    text-align: center;
+}
+.title1 h1{
+    margin-top: 60px;
+    font-size: 40px;
+    font-weight: 1000;
+}
+
+.title2{
+    width: 90%;
+    color: rgb(48, 0, 54);
+    position: absolute;
+    top: 10%;
+    left: 76%;
+    transform: translate(-50%, -30%);
+    text-align: center;
+}
+.title2 h1{
+    margin-top: 60px;
+    font-size: 40px;
+    font-weight: 1000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.box1{
+    width: 40%; 
+    height: 90vh; 
+    top: 5%;
+    left: 40%;
+    position: absolute;
+    background: #FFFDD0;
+    background: linear-gradient(to right, #f0ecae 5%, #fcfbe9 90%);
+    border-radius: 20px;
+    
+
+}
+.box1:hover{
+    width: 57.5%; 
+    height: 90vh; 
+    transition: 1s;
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.8);
+    border-radius: 27px;
+}
+
+
+.signup{
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+
+.signup label{
+	color: #290255;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 50px;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
+.signup input{
+    color: #ffffff;
+	width: 60%;
+	height: 30px;
+	background: #27005a;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+.signup button{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #ffffff;
+	background: #1f0452;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+}
+.signup button:hover{
+	background: #27005a;
+}
+
+.signup .container{ 
+    display: flex;
+    font-size: 1em;
+	font-weight: 10px;
+    color:#27005a;
+    justify-content: center;
+}
+
+.container input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    left: 58%;
+    height: 20px;
+    width: 25px;
+    background-color: #27005a;
+}
+
+.container:hover input ~ .checkmark {
+    background-color: #27005a;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+.container .checkmark:after {
+    left: 9px;
+    top: 2.5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box2{
+    width: 45%; 
+    height: 90vh; 
+    top: 0%;
+    left: -50%;
+    position: absolute;
+    background: #FFFDD0;
+    background: linear-gradient(to left, #dfdba2 5%, #fcfbe9 90%);
+    border-radius: 20px;
+    
+
+}
+.box2:hover{
+    width: -400%; 
+    height: 90vh; 
+    left: -50%;
+    transition: 1s;
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.8);
+    border-radius: 30px;
+    
+}
+
+.login{
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+
+.login label{
+	color: #290255;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 50px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
+.login input{
+    color: #ffffff;
+	width: 60%;
+	height: 30px;
+	background: #27005a;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+.login button{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #ffffff;
+	background: #1f0452;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+}
+.login button:hover{
+	background: #331074;
+}
+
+
+
+
